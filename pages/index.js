@@ -1,14 +1,22 @@
 import Head from 'next/head'
 
+//todo: add editorconfig
+//todo: add eslint - airbnb
+
+//todo: use typescript
+//todo: use react-bootstrap
+//todo: add css-in-js
+//todo: use yarn 2
+
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <div className="container">
+        <Head>
+          <title>Create Next App</title>
+          <link rel="icon" href={"/favicon.ico"}/>
+        </Head>
 
-      <main>
+        <main>
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -55,7 +63,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          <img src={"/vercel.svg"} alt="Vercel Logo" className="logo"/>
         </a>
       </footer>
 
