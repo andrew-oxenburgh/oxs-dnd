@@ -15,7 +15,6 @@ export default function Home() {
                     </h1>
                 </Col></Row>
                 <Row><Col>
-
                     <p>
                         Get started by editing <code>pages/index.js</code>
                     </p>
@@ -29,7 +28,6 @@ export default function Home() {
                     </Card>
                 </Col></Row>
                 <Row><Col>
-
                     <Card>
                         <Card.Title>Learn &rarr;</Card.Title>
                         <Card.Link href="https://nextjs.org/learn">
@@ -38,7 +36,6 @@ export default function Home() {
                     </Card>
                 </Col></Row>
                 <Row><Col>
-
                     <Card>
                         <Card.Title>Examples &rarr;</Card.Title>
                         <Card.Link href="https://github.com/vercel/next.js/tree/master/examples">
@@ -47,7 +44,6 @@ export default function Home() {
                     </Card>
                 </Col></Row>
                 <Row><Col>
-
                     <Card>
                         <Card.Title>Deploy &rarr;</Card.Title>
 
@@ -57,7 +53,6 @@ export default function Home() {
                     </Card>
                 </Col></Row>
                 <Row><Col>
-
                     <Card>
                         <a
                             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
