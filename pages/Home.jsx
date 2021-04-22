@@ -46,7 +46,6 @@ export default function Home() {
                 <Row><Col>
                     <Card>
                         <Card.Title>Deploy &rarr;</Card.Title>
-
                         <Card.Link href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
                             Instantly deploy your Next.js site to a public URL with Vercel.
                         </Card.Link>
