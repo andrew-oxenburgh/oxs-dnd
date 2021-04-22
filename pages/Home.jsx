@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 //todo: add editorconfig
-//todo: add eslint - airbnb
 
 //todo: use typescript
 //todo: use react-bootstrap
