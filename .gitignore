@@ -28,3 +28,13 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+.idea/
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
