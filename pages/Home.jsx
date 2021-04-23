@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {Card, Col, Container, Row} from "react-bootstrap";
+import {Card, Col, Container, Row} from 'react-bootstrap';
 
 export default function Home() {
     return (
