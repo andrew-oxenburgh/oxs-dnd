@@ -26,5 +26,3 @@ rules:
         - '.jsx'
         - '.ts'
         - '.tsx'
-
-
