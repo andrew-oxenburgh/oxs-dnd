@@ -1,4 +1,4 @@
-import Home from './Home';
+// import Home from './Home';
 import OsxNavBar from './OsxNavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

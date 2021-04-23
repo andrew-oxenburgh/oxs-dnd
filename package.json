@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "lint": "eslint ./pages ./storybook --fix",
+    "lint": "eslint ./pages ./.storybook ./stories --fix",
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
@@ -14,10 +14,12 @@
     "aggregate-error": "^4.0.0",
     "bootstrap": "^4.6.0",
     "next": "^10.0.0",
+    "ramda": "^0.27.1",
     "react": "17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "17.0.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "@storybook/react": "^6.2.8"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
@@ -26,7 +28,6 @@
     "@storybook/addon-docs": "^6.2.8",
     "@storybook/addon-essentials": "^6.2.8",
     "@storybook/addon-links": "^6.2.8",
-    "@storybook/react": "^6.2.8",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "babel-loader": "^8.2.2",
