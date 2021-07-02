@@ -1,20 +1,24 @@
 {
-  "name": "learn-starter",
+  "name": "oxs-dnd",
   "version": "0.1.0",
   "private": true,
+   "main": "pages/index.js",
   "scripts": {
-    "dev": "next dev",
-    "lint": "eslint ./pages ./.storybook ./stories --fix",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "lint": "eslint ./pages ./.storybook ./stories ./*.js --fix",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@next/mdx": "^11.0.1",
     "@storybook/react": "^6.2.8",
     "aggregate-error": "^4.0.0",
     "bootstrap": "^4.6.0",
     "next": "^10.0.0",
+    "prop-types": "^15.7.2",
     "ramda": "^0.27.1",
     "react": "17.0.1",
     "react-bootstrap": "^1.5.2",

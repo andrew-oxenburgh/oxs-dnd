@@ -6,6 +6,13 @@ extends:
   - airbnb
   - "plugin:@typescript-eslint/eslint-recommended"
   - "plugin:@typescript-eslint/recommended"
+overrides:
+   -  files:
+         - '*.jsx'
+         - '*.js'
+      rules:
+         '@typescript-eslint/no-var-requires': off
+         '@typescript-eslint/no-unused-vars': off
 
 parser: '@typescript-eslint/parser'
 parserOptions:
@@ -19,6 +26,12 @@ plugins:
 rules:
   'react/react-in-jsx-scope': "off"
   'react/jsx-props-no-spreading': "off"
+
+  '@typescript-eslint/': "off"
+
+   #  todo: this can go
+  '@typescript-eslint/explicit-module-boundary-types': "off"
+  'react/jsx-indent-props': "off"
   'react/jsx-filename-extension':
     - 2
     - 'extensions':
@@ -26,3 +39,19 @@ rules:
         - '.jsx'
         - '.ts'
         - '.tsx'
+  'import/no-unresolved': "off"
+  'import/extensions': "off"
+  'react/jsx-indent': "off"
+  comma-dangle:
+    - error
+    - always-multiline
+  indent:
+    - error
+    - 3
+  quotes:
+    - error
+    - single
+  no-unused-vars: error
+  semi:
+    - error
+    - never
