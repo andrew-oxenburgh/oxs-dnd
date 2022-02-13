@@ -2,7 +2,7 @@
   "name": "oxs-dnd",
   "version": "0.1.0",
   "private": true,
-   "main": "pages/index.js",
+  "main": "pages/index.js",
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "lint": "eslint ./pages ./.storybook ./stories ./*.js --fix",
@@ -40,7 +40,7 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
