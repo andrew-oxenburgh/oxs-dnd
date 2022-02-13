@@ -8,7 +8,7 @@ function Occupations({ occupations }) {
 
 Occupations.propTypes = {
    // eslint-disable-next-line react/forbid-prop-types
-   occupations: PropTypes.array(PropTypes.any).isRequired,
+   occupations: PropTypes.array.isRequired,
 }
 
 Occupations.defaultTypes = {
